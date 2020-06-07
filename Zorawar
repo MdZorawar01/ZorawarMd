@@ -74,28 +74,29 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print  """
 \033[1;96m           ✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗      
-\033[1;96m            █ █▄░█ █▀▄ █ ▄▀█ █▄░█
-\033[1;96m            █ █░▀█ █▄▀ █ █▀█ █░▀█
+\033[1;96m              █ █▄░█ █▀▄ █ ▄▀█ █▄░█
+\033[1;96m              █ █░▀█ █▄▀ █ █▀█ █░▀█
 \033[1;96m           ✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗✗         
 """
 ("\033[1;97m        ✗✗✗ NOT A NAME ITS A BRAND ✗✗✗")
 print """
-\033[1;96m     █▀█ █▀█ ▄█  ∅∅∅ ❝ZORAWAR X FAIZ❞ ∅∅∅
+\033[1;96m     █▀█ █▀█ ▄█    ∅∅∅ ❝ZORAWAR X FAIZ❞ ∅∅∅
 \033[1;96m     █▄█ █▄█ ░█  ✗✗ YEH APPNA OFFICIAL HAI ✗✗
 """
-jalan("   \033[1;93m  ✗✗ Welcome to Flaming Zorawars ✗✗")
-
-
+jalan("   \033[1;93m   ✗✗ Welcome to Flaming Zorawars ✗✗")
+\033[1;96m                    ❞❞❞❞❞❞❞❞❞❞❞❞❞
 
 CorrectUsername = "Zorawar"
 CorrectPassword = "Faiz"
 
 
+
+
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[1;97mUSER ID \x1b[1;96m>>>> ")
+    username = raw_input("\033[1;96m[∅] \x1b[1;97mUSER ID \x1b[1;96m>>>> ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[1;97mPASWORD \x1b[1;96m>>>> ")
+    	password = raw_input("\033[1;96m[∅] \x1b[1;97mPASWORD \x1b[1;96m>>>> ")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'
