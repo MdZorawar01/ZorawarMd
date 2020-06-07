@@ -108,8 +108,6 @@ print """
 """
 jalan("   \033[1;93m ◄──Welcome to Flaming Zorawars──►")
 
-\033[1;96m
-
 
 
 CorrectUsername = "Zorawar"
